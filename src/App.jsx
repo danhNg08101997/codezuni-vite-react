@@ -1,10 +1,11 @@
+import useRoutesCustom from "./routes/useRoutesCustom";
+import {useSelector} from 'react-redux'
 
 function App() {
-  return (
-    <>
-      <h1 className="text-3xl font-bold underline text-center">Hello world!</h1>{" "}
-    </>
-  );
+  const { hoTen } = useSelector( (state) => state )
+  console.log(hoTen);
+  const routes = useRoutesCustom();
+  return routes;
 }
 
 export default App;
