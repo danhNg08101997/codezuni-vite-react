@@ -5,11 +5,7 @@ import Demo from "../Components/Demo";
 function useRoutesCustom() {
   let element = useRoutes([
     {
-      path: "/home",
-      element: <div><DatePicker /></div>,
-    },
-    {
-        path: "/demo",
+        path: "/",
         element: <Demo/>
     }
   ]);
