@@ -1,12 +1,11 @@
 import { useRoutes } from "react-router-dom";
-import {DatePicker} from 'antd'
-import Demo from "../Components/Demo";
+import SignUpNew from "../pages/SignUpNew";
 
 function useRoutesCustom() {
   let element = useRoutes([
     {
         path: "/",
-        element: <Demo/>
+        element: <SignUpNew/>
     }
   ]);
 
