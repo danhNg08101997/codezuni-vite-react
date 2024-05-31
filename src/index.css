@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .image_signup {
+  background-color: rgb(97, 97, 255);
+} */
+.line-cross{
+  align-self: flex-end;
+  border-top: 1px solid;
+  color: #d0d4e4;
+  height: 50%;
+}
